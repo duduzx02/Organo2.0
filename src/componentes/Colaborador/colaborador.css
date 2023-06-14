@@ -42,4 +42,7 @@
     right: -10px;
     top: -10px;
     cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
 }
