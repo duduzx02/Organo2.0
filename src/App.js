@@ -217,8 +217,8 @@ function App() {
 
   const [colaboradores, setColaboradores] = useState(inicial)
 
-  function deletandoColaborador() {
-    console.log("Deleting")
+  function deletandoColaborador(id) {
+    setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id));
   }
 
   function mudarCorTime(cor, id) {
